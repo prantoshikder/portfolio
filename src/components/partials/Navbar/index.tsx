@@ -19,7 +19,8 @@ const Navbar = () => {
 const navbarStyles = css`
   &.menu-wrapper {
     background-color: #001e3c;
-    height: 70px;
+    padding: 15px 0;
+    // height: 70px;
   }
 `;
 
