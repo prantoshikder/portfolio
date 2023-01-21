@@ -1,7 +1,7 @@
 import { Inter } from "@next/font/google";
 import Head from "next/head";
+import HeroArea from "../components/HeroArea";
 import Navbar from "../components/partials/Navbar";
-import Container from "../components/share/Container";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +17,7 @@ export default function Home() {
 
       <main>
         <Navbar />
-        <Container>pranto shikder</Container>
+        <HeroArea />
       </main>
     </>
   );

@@ -2,7 +2,7 @@
 import { css } from "@emotion/react";
 
 import HeaderLogo from "@/assets/logo/logo-img.png";
-import { Space } from "antd";
+import { Button, Space } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -35,6 +35,10 @@ const DesktopMenu = () => {
                 {menuItem?.menu}
               </Link>
             ))}
+
+          <Button type="primary" className="primary-btn">
+            Resume
+          </Button>
         </Space>
       </div>
     </div>
